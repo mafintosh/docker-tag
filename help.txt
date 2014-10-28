@@ -1,0 +1,4 @@
+Usage: docker-tag [image] [(registry/)?(username/)?name(:tag)?] [options]
+
+  --host,    -H   [docker-host]
+  --version

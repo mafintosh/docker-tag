@@ -1,0 +1,25 @@
+{
+  "name": "docker-tag",
+  "version": "0.0.0",
+  "description": "Tag docker images",
+  "main": "index.js",
+  "dependencies": {
+    "docker-parse-image": "^3.0.1",
+    "docker-remote-api": "^4.4.0",
+    "minimist": "^1.1.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "docker-tag": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/docker-tag.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/docker-tag/issues"
+  },
+  "homepage": "https://github.com/mafintosh/docker-tag"
+}
