@@ -4,9 +4,11 @@ var minimist = require('minimist')
 var fs = require('fs')
 var tag = require('./')
 
-var argv = minimist(process.argv.slice(2))
+var argv = minimist(process.argv.slice(2), {
+  alias:{host:'H'}
+})
 
-if (argv._.length < 2) {
+if (argv._.length < 2 || argv.help) {
   console.error(fs.readFileSync(__dirname+'/help.txt', 'utf-8'))
   process.exit(1)
 }
