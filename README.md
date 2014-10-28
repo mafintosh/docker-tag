@@ -1,6 +1,6 @@
 # docker-tag
 
-Tag docker iamges
+Tag docker images
 
 ```
 npm install docker-tag
